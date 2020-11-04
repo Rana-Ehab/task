@@ -1,0 +1,172 @@
+ body{
+    margin: 0;
+    padding: 0;
+    line-height: 1.5;
+}
+ul{
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+a{
+    text-decoration: none;
+}
+.container{
+    width: 1100px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.overlay{
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    opacity: .7;
+    background: #575517;
+    z-index: 1;
+    height: 100vh;
+}
+.clear{
+    clear: both;
+}
+
+/* navbar */
+nav{
+    position: relative;
+    z-index: 2;
+    height: 0;
+}
+nav .links{
+    display: inline-flex;
+    float: right;
+}
+nav .links li{
+    font-size: 28px;
+    margin-right: 80px;
+    margin-top: 55px;
+}
+nav .links li a{
+    color: #ffffff;
+}
+nav .logo{
+    /* width: 7%; */
+    float: left;
+    color: #fff;
+    font-size: 35px;
+    margin-left: 40px;
+    margin-top: 51px;
+}
+
+/* header */
+#first{
+    background-image: url(background-books-cactus-2623828.jpg);
+    background-size: cover;
+    height: 100vh;
+    background-position: center;
+    position: relative;
+}
+#first .headerContent{
+    position: absolute;
+    z-index: 2;
+    top: 28%;
+    text-align: center;
+    margin: 0 336px;
+}
+#first .headerContent  h2{
+    font-size: 55px;
+    color: #ffffff;
+    margin-bottom: 40px;
+}
+#first .headerContent p{
+    font-size: 20px;
+    color: #ffffff;
+}
+
+/* section */
+#sec1{
+    margin: 100px 0;
+}
+#sec1 h2{
+    font-size: 45px;
+}
+#sec1 .content{
+    width: 50%;
+    float: left;
+}
+#sec1 .content .who{
+    font-size: 20px;
+    margin: 0;
+}
+#sec1 .content .who:after{
+    content: "";
+    width: 45px;
+    height: 4px;
+    display: block;
+    background: #A9E1E0;
+    margin-top: 20px;
+}
+#sec1 .content h2{
+    font-size: 36px;
+    margin-bottom: 20px;
+}
+#sec1 .content p{
+    font-size: 20px;
+    padding-right: 85px;
+}
+#sec1 .content .bt1{
+    margin-top: 50px;
+}
+#sec1 .content .bt1 a{
+    border: #000 solid 1px;
+    padding: 15px 40px;
+    color: #000000;
+    font-size: 20px;
+}
+#sec1 .content .bt1 a:hover{
+    background: #000;
+    color: #fff;
+    transition: all 1s ease-in-out;
+}
+#sec1 .img{
+    width: 50%;
+    float: left;  
+}
+#sec1 .img img{
+    height: 600px;
+    width: 100%;
+    box-shadow: 10px 10px 5px black;
+}
+
+/* cantact */
+#contact{
+    background-color: #333333;
+    padding: 50px 0;
+}
+#contact h2{
+    color: #ffffff;
+}
+#contact .content{
+    padding-left: 30px;
+}
+#contact .content h2{
+    color: rgba(255, 255, 255, 0.5);
+}
+#contact .content p{
+    color: #ffffff;
+    margin: 0;
+}
+#contact .icons{
+    float: right;
+    margin-top: -300px;
+    margin-right: 80px;
+    font-size: 35px;
+    color: rgba(255, 255, 255, 0.5);
+}
+#contact .icons .icon{
+    margin: 20px 0;
+}
+#contact .icons .icon:hover{
+    color: #ffffff;
+    transition: all .5s ease-in-out;
+}
